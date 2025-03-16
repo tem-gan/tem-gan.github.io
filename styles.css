@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: #0055cc; /* Blue color for the title */
+}
+
+h2 {
+    color: #f1c40f; /* Yellow for personalization */
+}
+
+.greeting {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.book-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.book-image {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.details {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.qr-code img {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
