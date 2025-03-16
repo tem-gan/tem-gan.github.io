@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #F0E4D7; /* Soft pastel beige background */
     color: #333; /* Dark text color */
-    line-height: 1.6;
+    line-height: 1.2;
     padding: 0;
 }
 
@@ -19,7 +19,7 @@ body {
     width: 80%;
     max-width: 800px;
     margin: 50px auto;
-    padding: 40px;
+    padding: 30px;
     background-color: #F0E4D7; /* Soft pastel beige background */
     text-align: center; /* Centered content */
     position: relative; /* For positioning the inner border */
@@ -65,8 +65,8 @@ header h1 {
     font-size: 1.5rem;
     font-weight: 300;
     color: black;
-    margin-bottom: 40px;
-    line-height: 1.5;
+    margin-bottom: 20px;
+    line-height: 1.2;
 }
 
 /* Books Section */
@@ -81,7 +81,6 @@ header h1 {
     display: flex;
     justify-content: center;
     gap: 10px; /* Space between the images */
-    margin-top: 20px;
     margin-bottom: 20px;
     padding: 0 20px; /* Padding on the left and right side */
 }
@@ -99,7 +98,7 @@ header h1 {
 p {
     font-size: 1rem;
     color: black;
-    line-height: 1.8;
+    line-height: 1.5;
 }
 
 .details p {
