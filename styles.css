@@ -1,116 +1,46 @@
-/* Base styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* styles.css */
 body {
-    font-family: 'Lora', serif; /* Elegant serif font for a clean and minimalist look */
-    background-color: #fafafa; /* Soft background color */
-    color: #333; /* Dark text color */
-    line-height: 1.5;
-    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
 }
 
-.container {
-    width: 80%;
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 40px;
-    background-color: #fff; /* White background for a clean look */
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    text-align: center; /* Centered content */
-}
-
-/* Title Section */
-header h1 {
-    font-size: 3.5rem; /* Larger title for impact */
-    color: #003366; /* Deep blue text for the title */
-    font-family: 'Merriweather', serif; /* Elegant serif font for titles */
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-}
-
-/* Greeting Section */
-.greeting h2 {
-    font-size: 2.5rem;
-    font-weight: 400;
-    color: #003366; /* Deep blue for the greeting */
-    margin-bottom: 40px;
+h1 {
     font-family: 'Merriweather', serif;
-    line-height: 1.4;
+    color: #0055cc; /* Blue color for the title */
 }
 
-/* Books Section */
-.books h3 {
-    font-size: 2.5rem;
-    color: #003366; /* Matching deep blue */
-    margin-bottom: 40px;
-    font-family: 'Merriweather', serif;
+h2 {
+    color: #f1c40f; /* Yellow for personalization */
 }
 
-/* Book Images */
+.greeting {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
 .book-images {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 .book-image {
-    width: 150px; /* Fixed width for images */
+    width: 150px;
     height: auto;
     border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
 }
 
-.book-image:hover {
-    transform: scale(1.05); /* Slight zoom on hover for interactivity */
-}
-
-/* Event Details Section */
 .details {
-    font-size: 1.2rem;
-    color: #666;
-    line-height: 1.8;
+    margin-top: 30px;
+    font-size: 18px;
 }
 
-.details p {
-    margin: 12px 0;
-}
-
-/* Footer Section for Extra Info or QR Code (hidden by default) */
-footer {
-    display: none;
-}
-
-/* Responsive Design for Smaller Screens */
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
-        padding: 30px;
-    }
-
-    header h1 {
-        font-size: 2.5rem;
-    }
-
-    .greeting h2 {
-        font-size: 2rem;
-    }
-
-    .books h3 {
-        font-size: 2rem;
-    }
-
-    .book-images {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .book-image {
-        width: 120px;
-    }
+.qr-code img {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
 }
