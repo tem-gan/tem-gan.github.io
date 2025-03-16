@@ -1,30 +1,72 @@
-/* styles.css */
+/* General reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9f9f9;
     color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container for centering content */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcc00;  /* Yellow background */
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 3em;
+    color: #003366;  /* Blue text */
+    font-weight: bold;
+}
+
+/* Greeting Section */
+.greeting {
     text-align: center;
     padding: 20px;
 }
 
-h1 {
+.greeting h2 {
+    font-size: 2em;
+    color: #003366;  /* Blue color */
     font-family: 'Merriweather', serif;
-    color: #0055cc; /* Blue color for the title */
+    margin-bottom: 20px;
 }
 
-h2 {
-    color: #f1c40f; /* Yellow for personalization */
+/* Books Section */
+.books {
+    margin: 40px 0;
 }
 
-.greeting {
-    margin-top: 20px;
-    font-size: 24px;
+.books h3 {
+    font-size: 2em;
+    text-align: center;
+    color: #003366;  /* Blue color */
+    margin-bottom: 20px;
 }
 
 .book-images {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
+    gap: 10px;
     margin-top: 30px;
 }
 
@@ -32,15 +74,41 @@ h2 {
     width: 150px;
     height: auto;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Details Section */
 .details {
-    margin-top: 30px;
-    font-size: 18px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 40px;
 }
 
-.qr-code img {
-    width: 150px;
-    height: auto;
-    margin-top: 20px;
+.details p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
 }
+
+.details p:first-child {
+    font-weight: bold;
+}
+
+/* Footer or QR Code Section (Optional, Not displayed on site) */
+footer {
+    display: none;
+}
+
+/* Responsive Design: Make everything mobile-friendly */
+@media (max-width: 768px) {
+    .book-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-image {
+        width: 120px;
+    }
+}
+
