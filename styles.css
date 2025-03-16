@@ -52,7 +52,7 @@ body {
 
 /* Title Section */
 header h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
     font-family: 'Merriweather', serif;
     margin-bottom: 10px;
@@ -62,7 +62,7 @@ header h1 {
 
 /* Greeting Section */
 .greeting h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 300;
     color: black;
     margin-bottom: 40px;
@@ -71,7 +71,7 @@ header h1 {
 
 /* Books Section */
 .books h3 {
-    font-size: 2rem;
+    font-size: 1rem;
     color: black;
     margin-bottom: 20px;
 }
@@ -97,7 +97,7 @@ header h1 {
 
 /* Event Details Section */
 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: black;
     line-height: 1.8;
 }
