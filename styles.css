@@ -80,7 +80,7 @@ header h1 {
 .image-container {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between the images */
+    gap: 10px; /* Space between the images */
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0 20px; /* Padding on the left and right side */
@@ -88,7 +88,7 @@ header h1 {
 
 /* Style for the book images */
 .book-image {
-    height: 150px;  /* Set a fixed height for all images */
+    height: 120px;  /* Set a fixed height for all images */
     width: auto;  /* Let the width adjust automatically to maintain aspect ratio */
     border: 2px solid #000;
     border-radius: 10px;
